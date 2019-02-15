@@ -17,7 +17,7 @@
     
     {% for message in chat_messages %}
         <p>({{ message.timestamp }}) {{ message.from }} : {{ message.message }}</p>
-    {% end_for %}
+    {% endfor %}
     
     <script>
         let textbox = document.getElementById("message")
